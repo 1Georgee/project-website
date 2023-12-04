@@ -11,6 +11,7 @@
 :root{
     --bg-color: #081b29;
     --second-bg-color: #112e42;
+    --third-bg-color: rgb(28, 62, 85);
     --text-color: #ededed;
     --main-color: #00abf0;
 }
@@ -97,7 +98,7 @@ section main button{
     padding: 15px 30px;
     font-size: 15px;
     margin-top: 50px;
-    color: white;
+    color: var(--text-color);
     cursor: pointer;
     border-radius: 15px;
     background-color: var(--second-bg-color);
@@ -110,5 +111,81 @@ section main button:hover{
 
 article{
     height: 807px;
-    width: 1902px;
+    width: 100%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+
+article img{
+    position: absolute;
+    object-fit: cover;
+}
+
+article div{
+    position: relative;
+    left: 420px;
+    top: 30px;
+    width: 673px;
+    height: 411px;
+    padding: 30px;
+    text-align: center;
+    background-color: var(--third-bg-color);
+    color: var(--text-color);
+}
+
+article div h1{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+article div p{
+    font-size: 19px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+aside{
+    height: 600px;
+    width: 100%;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--third-bg-color);
+    color: var(--text-color);
+}
+
+aside h1{
+    font-size: 43px;
+}
+
+.services{
+    display: flex;
+    gap: 30px;
+}
+
+.box{
+    width: 380px;
+    height: 177px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.box i{
+    font-size: 45px;
+    color: var(--main-color);
+}
+
+.box h2{
+    font-size: 35px;
+}
+
+.box p{
+    font-size: 15px;
+    font-weight: 300;
 }
