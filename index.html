@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet walking</title>
+    <title>Caresy</title>
     <link rel="icon" type="image/x-icon" href="https://www.clipartmax.com/png/middle/117-1171798_walking-small-dog-pet-vector-dog-walking-icon-png.png" />
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -11,13 +11,13 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Pet Walking</a>
+        <a href="#" class="logo">Caresy</a>
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav>
             <a href="#" class="active">Home</a>
-            <a href="#">AboutUs</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="#AboutUs">AboutUs</a>
+            <a href="#Services">Services</a>
+            <a href="#Contact">Contact</a>
         </nav>
     </header>
     <section>
@@ -25,17 +25,17 @@
         <main>
             <h1>We Care For your Pet</h1>
             <h3>We always try to Provide your pet the best services.</h3>
-            <button>Contact Us</button>
+            <a href="#Contact"><button>Contact Us</button></a>
         </main>
     </section>
-    <article>
-        <img src="https://static.wixstatic.com/media/nsplsh_6c6e7a3578446163677641~mv2_d_3956_4945_s_4_2.jpg/v1/crop/x_0,y_71,w_3956,h_4804/fill/w_518,h_629,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Tadeusz%20Lakota.jpg" alt="html image">
+    <article id="AboutUs">
+        <img src="https://static.wixstatic.com/media/442f92c303234b388e911cee3294ea10.jpg/v1/crop/x_1748,y_0,w_4492,h_5461/fill/w_518,h_629,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Man's%20Best%20friend.jpg" alt="html image">
         <div>
             <h1>About Us</h1>
-            <p>Add your intro to the business here. Your job here is to make people feel reassured that they're in the right place. Explain the concept of what you do and how it's a little different. I'm a paragraph. Click here to add your own text and edit me. It's easy. I'm a paragraph. Click here to add your own text and edit me. It's easy. I'm a paragraph. Click here to add your own text and edit me. It's easy. I'm a paragraph. Click here to add your own text and edit me. It's easy.</p>
+            <p>აქ თავმოყრილია მომხმარებლისთვის საჭირო ყველა რესურსი. ამ ეტაპზე: ძაღლის გამსეირნებელი, ბავშვების ძიძა, დამლაგებელი.ჩვენი ვებ-გვერდი მიზნად ისახავს ხელი შეუწყოს ხალხს, რომელთაც სამსახურის ან სხვა გარკვეული პირობების გამო დრო არ რჩებათ მოემული საქმიანობებისათვის.ასევე ჩვენი ვებ-გვერდი საშუალებას აძლევს ადამიანებს, რომლებსაც იმ გარკვეული მომენტისათვის ესაჭიროებათ გარკვეული თანხა, დარეგისტრირდნენ, საათობრივად გამოიმუშაონ და მიიღონ ანაზღაურება. რაც მთავარია, გახდნენ ჩვენი გუნდის წევრნი.</p>
         </div>
     </article>
-    <aside>
+    <aside id="Services">
         <h1>Our Services</h1>
         <div class="services">
             <div class="box">
@@ -55,9 +55,28 @@
             </div>
         </div>
     </aside>
-
-    <footer></footer>
-
+    <footer id="Contact">
+        <img src="https://static.wixstatic.com/media/838616_29b3022216934a15a63706081b1a6ed5~mv2.png/v1/fill/w_307,h_294,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RuggedLogo.png" alt="html image">
+        <div class="socials">
+            <h1>Contact Us</h1>
+            <h2>hello@outdoortemplate.com</h2>
+            <h2>(123) 456-7890</h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.tiktok.com/en/" target="_blank"><i class='bx bxl-tiktok' ></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube' ></i></a>
+            </div>
+            <a href="#" class="arrow"><i class='bx bxs-arrow-to-top' ></i></a>
+        </div>
+        <div class="hours">
+            <h1>Hours</h1>
+            <h2>Monday - Friday</h2>
+            <h2>7am - 7pm</h2>
+            <h2>Saturday - Sunday</h2>
+            <h2>8am - 2pm</h2>
+        </div>
+    </footer>
     <script src="./script.js"></script>
 </body>
 </html>
