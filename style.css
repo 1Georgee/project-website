@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,30 +8,32 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
-:root{
+
+:root {
     --bg-color: #081b29;
     --second-bg-color: #112e42;
     --third-bg-color: rgb(28, 62, 85);
     --text-color: #ededed;
     --main-color: #00abf0;
 }
-html{
+
+html {
     font-size: 62.5%;
     overflow-x: hidden;
 }
 
-body{
+body {
     background: var(--bg-color);
     color: var(--text-color);
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: transparent;     
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,13 +41,13 @@ header{
     background-color: var(--bg-color);
 }
 
-.logo{
+.logo {
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
 }
 
-nav a{
+nav a {
     font-size: 1.7rem;
     color: var(--text-color);
     font-weight: 500;
@@ -54,18 +56,18 @@ nav a{
 }
 
 nav a:hover,
-nav a.active{
+nav a.active {
     color: var(--main-color);
 }
 
-#menu-icon{
+#menu-icon {
     font-size: 3.6rem;
     color: var(--text-color);
     cursor: pointer;
     display: none;
 }
 
-section img{
+section img {
     margin-top: 78px;
     width: 100%;
     height: 820px;
@@ -74,7 +76,7 @@ section img{
     background-repeat: no-repeat;
 }
 
-section main{
+section main {
     position: absolute;
     top: 300px;
     left: 6%;
@@ -82,17 +84,17 @@ section main{
     width: auto;
 }
 
-section main h1{
+section main h1 {
     font-size: 60px;
 }
 
-section main h3{
+section main h3 {
     margin-top: 15px;
     font-size: 17px;
     font-weight: 400;
 }
 
-section main button{
+section main button {
     padding: 15px 30px;
     font-size: 15px;
     margin-top: 50px;
@@ -103,11 +105,11 @@ section main button{
     transition: .3s;
 }
 
-section main button:hover{
+section main button:hover {
     background-color: var(--main-color);
 }
 
-article{
+article {
     height: 807px;
     margin-left: 20%;
     display: flex;
@@ -115,12 +117,12 @@ article{
     color: var(--text-color);
 }
 
-article img{
+article img {
     position: absolute;
     object-fit: cover;
 }
 
-article div{
+article div {
     position: relative;
     left: 420px;
     top: 30px;
@@ -132,18 +134,18 @@ article div{
     color: var(--text-color);
 }
 
-article div h1{
+article div h1 {
     font-size: 32px;
     font-weight: 400;
 }
 
-article div p{
+article div p {
     font-size: 19px;
     margin-top: 10px;
     font-weight: 300;
 }
 
-aside{
+aside {
     height: 600px;
     width: 100%;
     gap: 40px;
@@ -155,16 +157,16 @@ aside{
     color: var(--text-color);
 }
 
-aside h1{
+aside h1 {
     font-size: 43px;
 }
 
-.services{
+.services {
     display: flex;
     gap: 30px;
 }
 
-.box{
+.box {
     width: 380px;
     height: 177px;
     display: flex;
@@ -173,21 +175,21 @@ aside h1{
     gap: 22px;
 }
 
-.box i{
+.box i {
     font-size: 45px;
     color: var(--main-color);
 }
 
-.box h2{
+.box h2 {
     font-size: 35px;
 }
 
-.box p{
+.box p {
     font-size: 15px;
     font-weight: 300;
 }
 
-footer{
+footer {
     width: 100%;
     height: 368px;
     display: flex;
@@ -195,43 +197,48 @@ footer{
     color: var(--text-color);
     justify-content: space-around;
 }
-footer img{
+
+footer img {
     filter: brightness(0) invert(1);
 }
 
-footer h1{
+footer h1 {
     font-size: 40px;
     font-weight: 400;
 }
-footer h2{
+
+footer h2 {
     font-size: 20px;
     font-weight: 500;
 }
-footer i{
+
+footer i {
     font-size: 35px;
 }
 
-.socials{
+.socials {
     display: flex;
     flex-direction: column;
     gap: 19px;
 }
+
 .social-icons {
     display: flex;
     cursor: pointer;
     gap: 8px;
 }
-.social-icons a{
+
+.social-icons a {
     color: var(--text-color);
 }
 
-.hours{
+.hours {
     display: flex;
     flex-direction: column;
     gap: 18px;
 }
 
-.arrow{
+.arrow {
     color: var(--text-color);
     margin-right: 125px;
     text-align: center;
