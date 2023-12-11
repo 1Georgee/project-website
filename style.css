@@ -118,13 +118,14 @@ article {
 }
 
 article img {
-    position: absolute;
+    position: relative;
     object-fit: cover;
 }
 
 article div {
     position: relative;
-    left: 420px;
+    /* left: 420px; */
+    right: 98px;
     top: 30px;
     width: 673px;
     height: 411px;
@@ -163,6 +164,8 @@ aside h1 {
 
 .services {
     display: flex;
+    justify-content: center;
+    width: 100%;
     gap: 30px;
 }
 
@@ -242,4 +245,24 @@ footer i {
     color: var(--text-color);
     margin-right: 125px;
     text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    html{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width: 991px) {
+    header{
+        padding: 2rem 4%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        background: var(--bg-color);
+    }
+    #menu-icon{
+        display: block;
+    }
 }
