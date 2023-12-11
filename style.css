@@ -118,7 +118,6 @@ article {
 }
 
 article img {
-    position: relative;
     object-fit: cover;
 }
 
@@ -245,24 +244,4 @@ footer i {
     color: var(--text-color);
     margin-right: 125px;
     text-align: center;
-}
-
-@media screen and (max-width: 1200px) {
-    html{
-        font-size: 55%;
-    }
-}
-@media screen and (max-width: 991px) {
-    header{
-        padding: 2rem 4%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    header{
-        background: var(--bg-color);
-    }
-    #menu-icon{
-        display: block;
-    }
 }
